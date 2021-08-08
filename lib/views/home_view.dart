@@ -34,6 +34,7 @@ class _HomePageState extends State<HomePage> {
           Text(
             "Next Rocket Launch",
             style: TextStyle(
+              fontWeight: FontWeight.bold,
               fontSize: 24,
             ),
           ),
