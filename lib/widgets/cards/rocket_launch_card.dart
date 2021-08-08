@@ -31,8 +31,8 @@ class RocketLaunchCard extends StatelessWidget {
           Container(
             decoration: BoxDecoration(
               borderRadius: BorderRadius.only(
-                topLeft: BorderRadius.all(10),
-                topRight: BorderRadius.all(10),
+                topLeft: Radius.circular(10),
+                topRight: Radius.circular(10),
               ),
             ),
             child: Row(
