@@ -23,6 +23,7 @@ class _HomePageState extends State<HomePage> {
           child: Column(
             children: <Widget>[
               Row(
+                crossAxisAlignment: CrossAxisAlignment.end,
                 children: <Widget>[
                   IconButton(
                     icon: Icon(
