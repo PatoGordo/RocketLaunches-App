@@ -17,7 +17,6 @@ class AstronomyArticleCard extends StatelessWidget {
       width: double.infinity,
       margin: EdgeInsets.symmetric(
         horizontal: 16,
-        vertical: 8,
       ),
       padding: EdgeInsets.only(
         bottom: 16,
