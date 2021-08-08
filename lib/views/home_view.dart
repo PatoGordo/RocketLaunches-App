@@ -14,7 +14,6 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0,
-        // title: Text('home'),
         actions: [
           IconButton(
             icon: Icon(
@@ -27,14 +26,10 @@ class _HomePageState extends State<HomePage> {
               right: 16,
             ),
             onPressed: null,
-          )
+          ),
         ],
       ),
-      body: Center(
-        child: Text(
-          "Hello World",
-        ),
-      ),
+      body: Column(),
     );
   }
 }
