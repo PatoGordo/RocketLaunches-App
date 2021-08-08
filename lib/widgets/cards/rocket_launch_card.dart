@@ -71,15 +71,6 @@ class RocketLaunchCard extends StatelessWidget {
           Container(
             child: Column(
               children: <Widget>[
-                Text(
-                  '  T-00:00:00:00  ',
-                  textAlign: TextAlign.center,
-                  style: TextStyle(
-                    decoration: TextDecoration.underline,
-                    fontSize: 24,
-                    fontWeight: FontWeight.w500,
-                  ),
-                ),
                 Container(
                   padding: EdgeInsets.symmetric(
                     horizontal: 16,
@@ -88,6 +79,15 @@ class RocketLaunchCard extends StatelessWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
+                      Text(
+                        '  T-00:00:00:00  ',
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                          decoration: TextDecoration.underline,
+                          fontSize: 24,
+                          fontWeight: FontWeight.w500,
+                        ),
+                      ),
                       Text(
                         'Mission name',
                         textAlign: TextAlign.left,
