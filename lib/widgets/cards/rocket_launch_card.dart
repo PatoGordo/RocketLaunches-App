@@ -74,7 +74,7 @@ class RocketLaunchCard extends StatelessWidget {
                 )
               ],
             ),
-          )
+          ),
         ],
       ),
     );
