@@ -19,7 +19,7 @@ class _HomePageState extends State<HomePage> {
           IconButton(
             icon: Icon(
               Icons.settings,
-              color: Colors.white,
+              color: Colors.black,
             ),
             iconSize: 28,
             color: Colors.white,
