@@ -14,9 +14,8 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      extendBodyBehindAppBar: true,
       appBar: AppBar(
-        extendBodyBehindAppBar: true,
-        backgroundColor: Colors.red,
         backgroundColor: Color(0x44000000),
         elevation: 0,
         actions: [
