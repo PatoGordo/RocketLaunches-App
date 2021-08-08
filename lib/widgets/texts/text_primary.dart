@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class TextPrimary extends StatelessWidget {
-  TextPrimary(text);
+  TextPrimary(this.text);
   final String text;
 
   @override
