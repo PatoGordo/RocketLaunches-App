@@ -21,7 +21,7 @@ class RocketLaunchCard extends StatelessWidget {
     return Container(
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(10),
-        color: Colors.grey,
+        color: Colors.grey[100],
       ),
       width: double.infinity,
       margin: EdgeInsets.symmetric(horizontal: 16),
@@ -37,7 +37,7 @@ class RocketLaunchCard extends StatelessWidget {
             ),
             width: double.infinity,
             decoration: BoxDecoration(
-              color: Colors.grey[100],
+              color: Colors.grey[200],
               borderRadius: BorderRadius.only(
                 topLeft: Radius.circular(10),
                 topRight: Radius.circular(10),
