@@ -49,6 +49,7 @@ class RocketLaunchCard extends StatelessWidget {
               children: <Widget>[
                 Icon(Ionicons.rocket_outline, size: 26),
                 Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
                     Text(
                       'Rocket name - Manufacturer',
