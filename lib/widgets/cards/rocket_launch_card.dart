@@ -44,6 +44,7 @@ class RocketLaunchCard extends StatelessWidget {
               ),
             ),
             child: Row(
+              crossAxisAlignment: CrossAxisAlignment.center,
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
                 Icon(Ionicons.rocket_outline, size: 26),
