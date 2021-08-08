@@ -46,6 +46,10 @@ class RocketLaunchCard extends StatelessWidget {
             child: Row(
               children: <Widget>[
                 Icon(Ionicons.rocket_outline, size: 26),
+                Column(children: <Widget>[
+                  Text('Rocket name - Manufacturer'),
+                  Text('00/00/0000, 00:00:00 PM/AM GMT+/- 0')
+                ])
               ],
             ),
           ),
