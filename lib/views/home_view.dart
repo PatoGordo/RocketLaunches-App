@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../widgets/cards/rocket_launch_card.dart';
+import '../widgets/cards/astronomy_article_card.dart';
 import '../widgets/texts/text_primary.dart';
 
 class HomePage extends StatefulWidget {
@@ -37,6 +38,10 @@ class _HomePageState extends State<HomePage> {
             child: TextPrimary('Next Rocket Launch'),
           ),
           RocketLaunchCard(),
+          Center(
+            child: TextPrimary('Next Rocket Launch'),
+          ),
+          AstronomyArticleCard(),
         ],
       ),
     );
