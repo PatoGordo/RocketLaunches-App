@@ -24,7 +24,10 @@ class RocketLaunchCard extends StatelessWidget {
         color: Colors.grey[300],
       ),
       width: double.infinity,
-      margin: EdgeInsets.symmetric(horizontal: 16),
+      margin: EdgeInsets.symmetric(
+        horizontal: 16,
+        vertical: 8,
+      ),
       padding: EdgeInsets.only(
         bottom: 16,
       ),
