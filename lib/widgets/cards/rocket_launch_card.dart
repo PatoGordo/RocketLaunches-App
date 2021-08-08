@@ -86,6 +86,7 @@ class RocketLaunchCard extends StatelessWidget {
                     vertical: 8,
                   ),
                   child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
                       Text(
                         'Mission name',
