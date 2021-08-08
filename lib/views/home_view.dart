@@ -16,7 +16,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       extendBodyBehindAppBar: true,
       appBar: AppBar(
-        backgroundColor: Color(0x44000000),
+        backgroundColor: Colors.transparent,
         elevation: 0,
         actions: [
           IconButton(
