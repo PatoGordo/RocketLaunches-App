@@ -28,7 +28,7 @@ class RocketLaunchCard extends StatelessWidget {
             child: Row(
               children: <Widget>[
                 // change icon to a rocket icon
-                Icon(Icons.rocket),
+                Icon(CupertinoIcons.add_circled),
               ],
             ),
           ),
