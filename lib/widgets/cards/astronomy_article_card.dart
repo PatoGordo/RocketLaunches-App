@@ -64,20 +64,6 @@ class AstronomyArticleCard extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
                 Container(
-                  margin: EdgeInsets.symmetric(
-                    vertical: 8,
-                  ),
-                  child: Text(
-                    '  T-00:00:00:00  ',
-                    textAlign: TextAlign.center,
-                    style: TextStyle(
-                      decoration: TextDecoration.underline,
-                      fontSize: 24,
-                      fontWeight: FontWeight.w500,
-                    ),
-                  ),
-                ),
-                Container(
                   padding: EdgeInsets.symmetric(
                     horizontal: 16,
                     vertical: 8,
@@ -86,7 +72,7 @@ class AstronomyArticleCard extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
                       Text(
-                        'Mission name',
+                        'Article title',
                         textAlign: TextAlign.left,
                         style: TextStyle(
                           fontSize: 18,
@@ -98,6 +84,18 @@ class AstronomyArticleCard extends StatelessWidget {
                           'vitae sapien pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas sed tempus urna et pharetra pharetra massa massa ultricies mi',
                           textAlign: TextAlign.left,
                           style: TextStyle(
+                            fontSize: 16,
+                            fontWeight: FontWeight.normal,
+                          ),
+                        ),
+                      ),
+                      Container(
+                        child: Text(
+                          'Know more in Article site name',
+                          textAlign: TextAlign.left,
+                          style: TextStyle(
+                            decoration: TextDecoration.underline,
+                            color: Colors.cyan,
                             fontSize: 16,
                             fontWeight: FontWeight.normal,
                           ),
