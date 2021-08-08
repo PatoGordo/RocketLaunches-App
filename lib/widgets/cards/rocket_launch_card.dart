@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:cupertino_icons/cupertino_icons.dart';
+import 'package:ionicons/ionicons.dart';
 
 class RocketLaunchCard extends StatelessWidget {
   RocketLaunchCard(
@@ -28,7 +28,7 @@ class RocketLaunchCard extends StatelessWidget {
             child: Row(
               children: <Widget>[
                 // change icon to a rocket icon
-                Icon(CupertinoIcons.add_circled),
+                Icon(Ionicons.add_sharp)
               ],
             ),
           ),
