@@ -36,6 +36,7 @@ class _HomePageState extends State<HomePage> {
       body: Container(
         margin: EdgeInsets.only(
           top: 48,
+          bottom: 16,
         ),
         child: SingleChildScrollView(
           child: Column(
