@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../widgets/cards/rocket_launch_card.dart';
+import '../widgets/texts/text_primary.dart';
 
 class HomePage extends StatefulWidget {
   HomePage({Key key}) : super(key: key);
@@ -33,14 +34,7 @@ class _HomePageState extends State<HomePage> {
       body: Column(
         children: <Widget>[
           Center(
-            child: Text(
-              "Next Rocket Launch",
-              textAlign: TextAlign.center,
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-                fontSize: 24,
-              ),
-            ),
+            child: TextPrimary('Next Rocket Launch'),
           ),
           RocketLaunchCard(),
         ],
