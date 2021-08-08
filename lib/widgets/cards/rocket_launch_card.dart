@@ -68,7 +68,7 @@ class RocketLaunchCard extends StatelessWidget {
             child: Column(
               children: <Widget>[
                 Text(
-                  'T-00:00:00:00',
+                  '  T-00:00:00:00  ',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     decoration: TextDecoration.underline,
