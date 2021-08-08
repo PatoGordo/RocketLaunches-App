@@ -64,8 +64,14 @@ class RocketLaunchCard extends StatelessWidget {
                       textAlign: TextAlign.start,
                     ),
                     Column(children: <Widget>[
-                      Text('Mission name'),
-                      Text('vitae sapien pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas sed tempus urna et pharetra pharetra massa massa ultricies mi'),
+                      Text(
+                        'Mission name',
+                      ),
+                      Flexible(
+                        child: Text(
+                          'vitae sapien pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas sed tempus urna et pharetra pharetra massa massa ultricies mi',
+                        ),
+                      ),
                     ]),
                   ],
                 ),
