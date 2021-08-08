@@ -9,6 +9,7 @@ void main() {
       title: 'No Horny',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
+        textTheme: ThemeData.dark(),
         primaryColor: Colors.white,
         scaffoldBackgroundColor: Color(0xff121212),
       ),
