@@ -53,6 +53,10 @@ class RocketLaunchCard extends StatelessWidget {
                   children: <Widget>[
                     Text(
                       'Rocket name - Manufacturer',
+                      style: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.w500,
+                      ),
                       textAlign: TextAlign.start,
                     ),
                     Text(
