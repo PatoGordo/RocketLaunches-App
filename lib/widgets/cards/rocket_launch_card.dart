@@ -42,7 +42,7 @@ class RocketLaunchCard extends StatelessWidget {
             ),
             child: Row(
               children: <Widget>[
-                Icon(Ionicons.rocket, size: 26),
+                Icon(Ionicons.rocket_sharp, size: 26),
               ],
             ),
           ),
