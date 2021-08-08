@@ -26,6 +26,9 @@ class RocketLaunchCard extends StatelessWidget {
       child: Column(
         children: <Widget>[
           Container(
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(10),
+            ),
             child: Row(
               children: <Widget>[
                 Icon(Ionicons.rocket_outline, size: 26),
