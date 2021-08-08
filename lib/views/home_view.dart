@@ -17,7 +17,7 @@ class _HomePageState extends State<HomePage> {
         // title: Text('home'),
         actions: [
           IconButton(
-            padding: EdgeInserts.only(
+            padding: EdgeInsets.only(
               right: 16,
             ),
             color: Colors.white,
