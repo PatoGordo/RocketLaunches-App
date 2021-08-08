@@ -11,10 +11,19 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        actions: [
+          IconButton(
+            icon: Icon(Icons.settings),
+            onPressed: null,
+          )
+        ],
+      ),
       body: Center(
-          child: Text(
-        "Hello World",
-      )),
+        child: Text(
+          "Hello World",
+        ),
+      ),
     );
   }
 }
