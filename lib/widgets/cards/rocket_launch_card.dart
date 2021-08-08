@@ -63,16 +63,6 @@ class RocketLaunchCard extends StatelessWidget {
                       '00/00/0000, 00:00:00 PM/AM GMT+/- 0',
                       textAlign: TextAlign.start,
                     ),
-                    Column(children: <Widget>[
-                      Text(
-                        'Mission name',
-                      ),
-                      Container(
-                        padding: const EdgeInsets.all(16.0),
-                        width: MediaQuery.of(context).size.width * 0.8,
-                        child: Text('vitae sapien pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas sed tempus urna et pharetra pharetra massa massa ultricies mi', textAlign: TextAlign.left),
-                      ),
-                    ]),
                   ],
                 ),
               ],
@@ -90,6 +80,16 @@ class RocketLaunchCard extends StatelessWidget {
                     fontWeight: FontWeight.w500,
                   ),
                 ),
+                Column(children: <Widget>[
+                  Text(
+                    'Mission name',
+                  ),
+                  Container(
+                    padding: const EdgeInsets.all(16.0),
+                    width: MediaQuery.of(context).size.width * 0.8,
+                    child: Text('vitae sapien pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas sed tempus urna et pharetra pharetra massa massa ultricies mi', textAlign: TextAlign.left),
+                  ),
+                ]),
               ],
             ),
           ),
