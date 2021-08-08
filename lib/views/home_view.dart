@@ -32,17 +32,21 @@ class _HomePageState extends State<HomePage> {
           ),
         ],
       ),
-      body: Column(
-        children: <Widget>[
-          Center(
-            child: TextPrimary('Next Rocket Launch'),
+      body: Container(
+        child: SingleChildScrollView(
+          child: Column(
+            children: <Widget>[
+              Center(
+                child: TextPrimary('Next Rocket Launch'),
+              ),
+              RocketLaunchCard(),
+              Center(
+                child: TextPrimary('Next Rocket Launch'),
+              ),
+              AstronomyArticleCard(),
+            ],
           ),
-          RocketLaunchCard(),
-          Center(
-            child: TextPrimary('Next Rocket Launch'),
-          ),
-          AstronomyArticleCard(),
-        ],
+        ),
       ),
     );
   }
