@@ -19,7 +19,7 @@ class RocketLaunchCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.grey[900],
+      color: Colors.grey[850],
       width: double.infinity,
       margin: EdgeInsets.symmetric(horizontal: 16),
       padding: EdgeInsets.all(16),
