@@ -31,6 +31,7 @@ class RocketLaunchCard extends StatelessWidget {
       child: Column(
         children: <Widget>[
           Container(
+            width: double.infinity,
             decoration: BoxDecoration(
               color: Colors.grey[850],
               borderRadius: BorderRadius.only(
