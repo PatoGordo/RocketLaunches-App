@@ -69,9 +69,7 @@ class RocketLaunchCard extends StatelessWidget {
                       ),
                       Container(
                         width: double.infinity,
-                        child: Text(
-                          'vitae sapien pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas sed tempus urna et pharetra pharetra massa massa ultricies mi',
-                        ),
+                        child: Text('vitae sapien pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas sed tempus urna et pharetra pharetra massa massa ultricies mi', textAlign: TextAlign.left),
                       ),
                     ]),
                   ],
