@@ -18,7 +18,7 @@ class _HomePageState extends State<HomePage> {
         actions: [
           IconButton(
             icon: Icon(Icons.settings),
-            iconSize: 24,
+            iconSize: 32,
             color: Colors.white,
             padding: EdgeInsets.only(
               right: 16,
