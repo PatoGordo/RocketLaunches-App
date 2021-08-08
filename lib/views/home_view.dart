@@ -17,11 +17,12 @@ class _HomePageState extends State<HomePage> {
         // title: Text('home'),
         actions: [
           IconButton(
+            icon: Icon(Icons.settings),
+            iconSize: 24,
+            color: Colors.white,
             padding: EdgeInsets.only(
               right: 16,
             ),
-            color: Colors.white,
-            icon: Icon(Icons.settings),
             onPressed: null,
           )
         ],
