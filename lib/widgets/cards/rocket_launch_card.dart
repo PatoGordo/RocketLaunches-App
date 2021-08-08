@@ -80,14 +80,19 @@ class RocketLaunchCard extends StatelessWidget {
                     fontWeight: FontWeight.w500,
                   ),
                 ),
-                Column(children: <Widget>[
-                  Text(
-                    'Mission name',
+                Container(
+                  padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                  child: Column(
+                    children: <Widget>[
+                      Text(
+                        'Mission name',
+                      ),
+                      Container(
+                        child: Text('vitae sapien pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas sed tempus urna et pharetra pharetra massa massa ultricies mi', textAlign: TextAlign.left),
+                      ),
+                    ],
                   ),
-                  Container(
-                    child: Text('vitae sapien pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas sed tempus urna et pharetra pharetra massa massa ultricies mi', textAlign: TextAlign.left),
-                  ),
-                ]),
+                )
               ],
             ),
           ),
