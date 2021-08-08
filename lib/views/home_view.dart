@@ -29,7 +29,16 @@ class _HomePageState extends State<HomePage> {
           ),
         ],
       ),
-      body: Column(),
+      body: Column(
+        children: <Widget>[
+          Text(
+            "Next Rocket Launch",
+            style: TextStyle(
+              fontSize: 24,
+            ),
+          ),
+        ],
+      ),
     );
   }
 }
