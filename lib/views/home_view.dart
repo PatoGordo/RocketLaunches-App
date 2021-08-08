@@ -45,7 +45,7 @@ class _HomePageState extends State<HomePage> {
               ),
               RocketLaunchCard(),
               Center(
-                child: TextPrimary('Next Rocket Launch'),
+                child: TextPrimary('Breaking News'),
               ),
               AstronomyArticleCard(),
             ],
