@@ -33,12 +33,12 @@ class _HomePageState extends State<HomePage> {
           ),
         ],
       ),
-      body: Container(
-        margin: EdgeInsets.only(
-          top: 48,
-          bottom: 16,
-        ),
-        child: SingleChildScrollView(
+      body: SingleChildScrollView(
+        child: Container(
+          margin: EdgeInsets.only(
+            top: 48,
+            bottom: 16,
+          ),
           child: Column(
             children: <Widget>[
               Center(
