@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class HomePage extends StatefulWidget {
-  HomePage({Key key}) : super(key: key);
+class Page404 extends StatefulWidget {
+  Page404({Key key}) : super(key: key);
 
   @override
-  _HomePageState createState() => _HomePageState();
+  _Page404State createState() => _Page404State();
 }
 
-class _HomePageState extends State<HomePage> {
+class _Page404State extends State<Page404> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
