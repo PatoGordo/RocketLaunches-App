@@ -70,7 +70,10 @@ class RocketLaunchCard extends StatelessWidget {
                 Text(
                   'T-00:00:00:00',
                   textAlign: TextAlign.center,
-                  style: TextStyle(),
+                  style: TextStyle(
+                    fontSize: 24,
+                    fontWeight: FontWeight.w500,
+                  ),
                 )
               ],
             ),
