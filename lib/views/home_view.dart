@@ -15,36 +15,41 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
-        child: Column(
-          children: <Widget>[
-            Row(
-              mainAxisAlignment: MainAxisAlignment.end,
-              crossAxisAlignment: CrossAxisAlignment.end,
-              children: <Widget>[
-                IconButton(
-                  icon: Icon(
-                    Icons.settings,
-                    color: Colors.black,
+        child: Container(
+          margin: EdgeInsets.only(
+            bottom: 16,
+          ),
+          child: Column(
+            children: <Widget>[
+              Row(
+                mainAxisAlignment: MainAxisAlignment.end,
+                crossAxisAlignment: CrossAxisAlignment.end,
+                children: <Widget>[
+                  IconButton(
+                    icon: Icon(
+                      Icons.settings,
+                      color: Colors.black,
+                    ),
+                    iconSize: 28,
+                    color: Colors.white,
+                    padding: EdgeInsets.only(
+                      right: 16,
+                      top: 16,
+                    ),
+                    onPressed: null,
                   ),
-                  iconSize: 28,
-                  color: Colors.white,
-                  padding: EdgeInsets.only(
-                    right: 16,
-                    top: 16,
-                  ),
-                  onPressed: null,
-                ),
-              ],
-            ),
-            Center(
-              child: TextPrimary('Next Rocket Launch'),
-            ),
-            RocketLaunchCard(),
-            Center(
-              child: TextPrimary('Next Rocket Launch'),
-            ),
-            AstronomyArticleCard(),
-          ],
+                ],
+              ),
+              Center(
+                child: TextPrimary('Next Rocket Launch'),
+              ),
+              RocketLaunchCard(),
+              Center(
+                child: TextPrimary('Next Rocket Launch'),
+              ),
+              AstronomyArticleCard(),
+            ],
+          ),
         ),
       ),
     );
