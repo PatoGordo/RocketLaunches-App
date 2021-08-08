@@ -49,11 +49,11 @@ class RocketLaunchCard extends StatelessWidget {
                 Column(children: <Widget>[
                   Text(
                     'Rocket name - Manufacturer',
-                    textAlign: TextAlign.start,
+                    textAlign: TextAlign.left,
                   ),
                   Text(
                     '00/00/0000, 00:00:00 PM/AM GMT+/- 0',
-                    textAlign: TextAlign.start,
+                    textAlign: TextAlign.left,
                   )
                 ])
               ],
