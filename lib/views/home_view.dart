@@ -22,17 +22,21 @@ class _HomePageState extends State<HomePage> {
           ),
           child: Column(
             children: <Widget>[
-              IconButton(
-                icon: Icon(
-                  Icons.settings,
-                  color: Colors.black,
-                ),
-                iconSize: 28,
-                color: Colors.white,
-                padding: EdgeInsets.only(
-                  right: 16,
-                ),
-                onPressed: null,
+              Row(
+                children: <Widget>[
+                  IconButton(
+                    icon: Icon(
+                      Icons.settings,
+                      color: Colors.black,
+                    ),
+                    iconSize: 28,
+                    color: Colors.white,
+                    padding: EdgeInsets.only(
+                      right: 16,
+                    ),
+                    onPressed: null,
+                  ),
+                ],
               ),
               Center(
                 child: TextPrimary('Next Rocket Launch'),
