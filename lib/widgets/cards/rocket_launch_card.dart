@@ -64,6 +64,17 @@ class RocketLaunchCard extends StatelessWidget {
               ],
             ),
           ),
+          Container(
+            child: Column(
+              children: <Widget>[
+                Text(
+                  'T-00:00:00:00',
+                  textAlign: TextAlign.center,
+                  style: TextStyle(),
+                )
+              ],
+            ),
+          )
         ],
       ),
     );
