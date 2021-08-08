@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class TextPrimary extends StatelessWidget {
   TextPrimary(text);
-  String text;
+  final String text;
 
   @override
   Widget build(BuildContext context) {
