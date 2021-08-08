@@ -85,7 +85,6 @@ class RocketLaunchCard extends StatelessWidget {
                     'Mission name',
                   ),
                   Container(
-                    padding: const EdgeInsets.all(16.0),
                     child: Text('vitae sapien pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas sed tempus urna et pharetra pharetra massa massa ultricies mi', textAlign: TextAlign.left),
                   ),
                 ]),
