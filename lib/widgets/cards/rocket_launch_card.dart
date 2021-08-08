@@ -31,7 +31,7 @@ class RocketLaunchCard extends StatelessWidget {
       child: Column(
         children: <Widget>[
           Container(
-            margin: EdgeInsets.symmetric(
+            padding: EdgeInsets.symmetric(
               horizontal: 16,
             ),
             height: 56,
