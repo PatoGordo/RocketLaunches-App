@@ -91,6 +91,10 @@ class RocketLaunchCard extends StatelessWidget {
                       Text(
                         'Mission name',
                         textAlign: TextAlign.left,
+                        style: TextStyle(
+                          fontSize: 18,
+                          fontWeight: FontWeight.w500,
+                        ),
                       ),
                       Container(
                         child: Text(
