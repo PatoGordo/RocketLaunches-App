@@ -14,25 +14,6 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      extendBodyBehindAppBar: true,
-      appBar: AppBar(
-        backgroundColor: Colors.transparent,
-        elevation: 0,
-        actions: [
-          IconButton(
-            icon: Icon(
-              Icons.settings,
-              color: Colors.black,
-            ),
-            iconSize: 28,
-            color: Colors.white,
-            padding: EdgeInsets.only(
-              right: 16,
-            ),
-            onPressed: null,
-          ),
-        ],
-      ),
       body: SingleChildScrollView(
         child: Container(
           margin: EdgeInsets.only(
