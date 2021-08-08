@@ -20,7 +20,7 @@ class _HomePageState extends State<HomePage> {
               Icons.settings,
               color: Colors.white,
             ),
-            iconSize: 32,
+            iconSize: 42,
             color: Colors.white,
             padding: EdgeInsets.only(
               right: 16,
