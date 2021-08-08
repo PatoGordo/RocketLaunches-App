@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'views/home_view.dart';
+import 'views/404_view.dart';
 
 void main() {
   runApp(
