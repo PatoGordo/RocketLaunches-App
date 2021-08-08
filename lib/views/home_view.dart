@@ -17,7 +17,7 @@ class _HomePageState extends State<HomePage> {
         // title: Text('home'),
         actions: [
           IconButton(
-            color: Colors.white70,
+            color: Colors.white,
             icon: Icon(Icons.settings),
             onPressed: null,
           )
