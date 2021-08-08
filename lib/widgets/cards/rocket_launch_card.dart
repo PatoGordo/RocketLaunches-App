@@ -34,7 +34,7 @@ class RocketLaunchCard extends StatelessWidget {
             height: 56,
             width: double.infinity,
             decoration: BoxDecoration(
-              color: Colors.grey[850],
+              color: Colors.grey[760],
               borderRadius: BorderRadius.only(
                 topLeft: Radius.circular(10),
                 topRight: Radius.circular(10),
