@@ -41,7 +41,7 @@ class _HomePageState extends State<HomePage> {
                 ],
               ),
               Center(
-                child: TextPrimary('Next Rocket Launch'),
+                child: TextPrimary('Next Rocket Launchh'),
               ),
               RocketLaunchCard(),
               Center(
