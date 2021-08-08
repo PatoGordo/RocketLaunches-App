@@ -8,7 +8,7 @@ void main() {
     MaterialApp(
       title: 'No Horny',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData.dark(scaffoldBackgroundColor: Colors.white),
+      theme: ThemeData.light(),
       routes: {
         '/': (context) => HomePage(),
       },
