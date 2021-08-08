@@ -67,7 +67,8 @@ class RocketLaunchCard extends StatelessWidget {
                       Text(
                         'Mission name',
                       ),
-                      Flexible(
+                      Container(
+                        width: double.infinity,
                         child: Text(
                           'vitae sapien pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas sed tempus urna et pharetra pharetra massa massa ultricies mi',
                         ),
