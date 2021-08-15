@@ -36,7 +36,9 @@ class _HomePageState extends State<HomePage> {
                       right: 16,
                       top: 40,
                     ),
-                    onPressed: Navigator.pushNamed(context, '/settings'),
+                    onPressed: () {
+                      Navigator.pushNamed(context, '/settings')
+                    },
                   ),
                 ],
               ),
