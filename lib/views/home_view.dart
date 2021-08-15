@@ -27,7 +27,7 @@ class _HomePageState extends State<HomePage> {
                 children: <Widget>[
                   Container(
                     margin: EdgeInsets.only(
-                      top: 42,
+                      top: 32,
                       right: 8,
                     ),
                     child: IconButton(
