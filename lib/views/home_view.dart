@@ -34,7 +34,7 @@ class _HomePageState extends State<HomePage> {
                     color: Colors.white,
                     padding: EdgeInsets.only(
                       right: 16,
-                      top: 32,
+                      top: 40,
                     ),
                     onPressed: null,
                   ),
