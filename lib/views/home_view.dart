@@ -28,7 +28,7 @@ class _HomePageState extends State<HomePage> {
                   Container(
                     margin: EdgeInsets.only(
                       top: 32,
-                      right: 8,
+                      right: 16,
                     ),
                     child: IconButton(
                       icon: Icon(
@@ -37,7 +37,6 @@ class _HomePageState extends State<HomePage> {
                       ),
                       iconSize: 28,
                       color: Colors.white,
-                      padding: EdgeInsets.all(8),
                       onPressed: () {
                         Navigator.pushNamed(context, '/settings');
                       },
