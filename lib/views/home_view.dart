@@ -25,18 +25,22 @@ class _HomePageState extends State<HomePage> {
                 mainAxisAlignment: MainAxisAlignment.end,
                 crossAxisAlignment: CrossAxisAlignment.end,
                 children: <Widget>[
-                  IconButton(
-                    icon: Icon(
-                      Icons.settings,
-                      color: Colors.black,
-                    ),
-                    iconSize: 28,
-                    color: Colors.white,
-                    padding: EdgeInsets.only(
+                  Container(
+                    margin: EdgeInsets.only(
+                      top: 32,
                       right: 16,
-                      top: 16,
                     ),
-                    onPressed: null,
+                    child: IconButton(
+                      icon: Icon(
+                        Icons.settings,
+                        color: Colors.black,
+                      ),
+                      iconSize: 28,
+                      color: Colors.white,
+                      onPressed: () {
+                        Navigator.pushNamed(context, '/settings');
+                      },
+                    ),
                   ),
                 ],
               ),
