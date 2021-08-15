@@ -32,10 +32,7 @@ class _HomePageState extends State<HomePage> {
                     ),
                     iconSize: 28,
                     color: Colors.white,
-                    padding: EdgeInsets.only(
-                      right: 16,
-                      top: 40,
-                    ),
+                    padding: EdgeInsets.all(16),
                     onPressed: () {
                       Navigator.pushNamed(context, '/settings');
                     },
